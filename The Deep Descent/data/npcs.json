@@ -1,0 +1,14 @@
+{
+    "Master Veyr": {
+        "Gender": "Male",
+        "Desc": "A quiet, evasive man. Only survivor of the \"accident\"?\nHe won't say what happened...",
+        "Role": "Grand Refiner and Evaluator",
+        "Role-desc": "Master Veyr specializes in purity, balance, and final jugdement of items and artifacts.NEWLINEHe rarely forges.\nHe just decides whats worthy after it's made.NEWLINEThat's why people say his\nsurvival was unsettling.NEWLINEHe's the person who knows when\nsomething is wrong"
+    },
+    "": {
+        "Gender": "",
+        "Desc": "",
+        "Role": "",
+        "Role-desc": ""
+    }
+}
