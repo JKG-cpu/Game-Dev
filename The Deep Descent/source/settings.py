@@ -1,12 +1,30 @@
 import random
 import time
 import json
+import pygame
 
 from VividText import VividText as vt
+from sys import exit as close_game
+from os import system, name
+from os.path import join
+
+pygame.init()
 
 # Variables
+DATA_PATH = join("data")
+FONT_PATH = join("fonts")
+
+SCREEN_WIDTH, SCREEN_HEIGHT = 1250, 750
+COLORS = {
+    "Background": (0, 0, 0)
+}
+FONTS = {
+    "Small": pygame.font.Font(join(FONT_PATH, "ithaca.ttf"))
+}
 
 # Functions
+def cc():
+    system("cls" if name == "nt" else "clear")
 
 # Classes
 class DataLoader:
