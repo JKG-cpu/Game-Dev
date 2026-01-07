@@ -13,5 +13,6 @@
         ".gitattributes",
         ".gitignore",
         "LICENSE"
-    ]
+    ],
+    "python.REPL.enableREPLSmartSend": false
 }

@@ -5,18 +5,16 @@ class Button:
                 text: str, 
                 font: pygame.font.Font, 
                 pos: tuple[int, int], 
-                size: tuple[int, int], 
-                color: str | tuple[int, int, int] | tuple[int, int, int, int],
-                border_color: str | tuple[int, int, int] | tuple[int, int, int, int]
+                size: tuple[int, int]
         ) -> None:
         self.screen = pygame.display.get_surface()
         self.clicked = False
 
         self.main_surf = pygame.Surface(size, pygame.SRCALPHA)
-        self.main_surf.fill(color)
+        self.main_surf.fill("Black")
         self.main_rect = self.main_surf.get_frect(topleft = pos)
 
-        self.bcolor = border_color
+        self.bcolor = "White"
         self.border_rect = pygame.Rect(self.main_rect.topleft, size)
 
         self.text = font.render(text, False, "White")
