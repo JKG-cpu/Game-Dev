@@ -1,0 +1,18 @@
+{
+    "Helmet": {
+        "Ore Amount": 3,
+        "Max Amount": 4
+    },
+    "ChestPiece": {
+        "Ore Amount": 7,
+        "Max Amount": 8
+    },
+    "Leggings": {
+        "Ore Amount": 5,
+        "Max Amount": 6
+    },
+    "Boots": {
+        "Ore Amount": 1,
+        "Max Amount": 2
+    }
+}

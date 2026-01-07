@@ -6,6 +6,7 @@
         "Items": [
             {
                 "Name": "Stone",
+                "Desc": "The basics of all!",
                 "Rarity": "Common",
                 "Chance": 0.5,
                 "Amount": 0,
@@ -13,6 +14,7 @@
             },
             {
                 "Name": "Copper",
+                "Desc": "A shiny, somewhat expensive ore. Not great for forging.",
                 "Rarity": "Uncommon",
                 "Chance": 0.3,
                 "Amount": 0,
@@ -22,6 +24,7 @@
             },
             {
                 "Name": "Iron",
+                "Desc": "A shiny, strong ore. Great for making any item.",
                 "Rarity": "Rare",
                 "Chance": 0.1,
                 "Amount": 0,
@@ -40,6 +43,7 @@
         "Items": [
             {
                 "Name": "Iron",
+                "Desc": "A shiny, strong ore. Great for making any item.",
                 "Rarity": "Rare",
                 "Chance": 0.5,
                 "Amount": 0,
@@ -47,6 +51,7 @@
             },
             {
                 "Name": "Magmite",
+                "Desc": "A really hot ore. Make sure to wear gloves!",
                 "Rarity": "Epic",
                 "Chance": 0.3,
                 "Amount": 0,
@@ -54,6 +59,7 @@
             },
             {
                 "Name": "Netherite",
+                "Desc": "One of the strongest there is! Or so I was told...",
                 "Rarity": "Legendary",
                 "Chance": 0.1,
                 "Amount": 0,
