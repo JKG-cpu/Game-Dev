@@ -5,6 +5,7 @@
         "**/.hg": true,
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
+        "**/*.crswap": true,
         ".gitattributes": true,
         ".gitignore": true,
         "LICENSE": true

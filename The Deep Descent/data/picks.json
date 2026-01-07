@@ -1,0 +1,10 @@
+{
+    "Pickaxe": {
+        "Ore Amount": 3,
+        "Max Amount": 15
+    },
+    "Axe": {
+        "Ore Amount": 2,
+        "Max Amount": 10
+    }
+}

@@ -1,29 +1,64 @@
 {
-    "Beginners Hole": [
-        {
-            "Name": "Stone",
-            "Rarity": "Common",
-            "Chance": 0.5,
-            "Amount": 0,
-            "Purity": [{"100": 1}]
+    "Beginners Hole": {
+        "Name": "Beginners Hole",
+        "Desc": "A great place for all beginner forgers! Home to stone, copper, and sometimes iron.",
+        "Requirements": null,
+        "Items": [
+            {
+                "Name": "Stone",
+                "Rarity": "Common",
+                "Chance": 0.5,
+                "Amount": 0,
+                "Purity": [{"100": 1}]
+            },
+            {
+                "Name": "Copper",
+                "Rarity": "Uncommon",
+                "Chance": 0.3,
+                "Amount": 0,
+                "Purity": [
+                    {"100": 0.6, "70": 0.4, "50": 0.2}
+                ]
+            },
+            {
+                "Name": "Iron",
+                "Rarity": "Rare",
+                "Chance": 0.1,
+                "Amount": 0,
+                "Purity": [
+                    {"100": 0.3, "70": 0.4, "50": 0.5, "35": 0.6}
+                ]
+            }
+        ]
+    },
+    "Magma Mine": {
+        "Name": "Magma Mine",
+        "Desc": "One of the hottest places here! But some easy and great ores to use in forgery!",
+        "Requirements": {
+            "Level": 10
         },
-        {
-            "Name": "Copper",
-            "Rarity": "Uncommon",
-            "Chance": 0.3,
-            "Amount": 0,
-            "Purity": [
-                {"100": 0.6, "70": 0.4, "50": 0.2}
-            ]
-        },
-        {
-            "Name": "Iron",
-            "Rarity": "Rare",
-            "Chance": 0.1,
-            "Amount": 0,
-            "Purity": [
-                {"100": 0.3, "70": 0.4, "50": 0.5, "35": 0.6}
-            ]
-        }
-    ]
+        "Items": [
+            {
+                "Name": "Iron",
+                "Rarity": "Rare",
+                "Chance": 0.5,
+                "Amount": 0,
+                "Purity": [{"100": 0.5, "75": 0.3}]
+            },
+            {
+                "Name": "Magmite",
+                "Rarity": "Epic",
+                "Chance": 0.3,
+                "Amount": 0,
+                "Purity": [{"100": 0.3}, {"75": 0.5}, {"50": 0.7}]
+            },
+            {
+                "Name": "Netherite",
+                "Rarity": "Legendary",
+                "Chance": 0.1,
+                "Amount": 0,
+                "Purity": [{"100": 0.1}, {"75": 0.3}, {"50": 0.5}]
+            }
+        ]
+    }
 }
