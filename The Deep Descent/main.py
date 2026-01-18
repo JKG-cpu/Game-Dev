@@ -6,6 +6,7 @@ class Game:
 
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption("The Deep Descent")
+        self.clock = pygame.time.Clock()
 
         icon_surface = pygame.Surface((50, 50), pygame.SRCALPHA)
         pygame.display.set_icon(icon_surface)
@@ -28,18 +29,19 @@ class Game:
     def main(self) -> None:
         while True:
             self.screen.fill(COLORS["Background"])
+            dt = self.clock.tick() / 1000
 
             events = pygame.event.get()
             self.events(events)
 
-            self.current_screen.draw()
+            self.current_screen.draw(dt)
 
             next_screen = self.current_screen.handle_event(events)
             if next_screen:
                 self.current_screen = next_screen
                 continue
 
-            next_screen = self.current_screen.update()
+            next_screen = self.current_screen.update(dt)
             if next_screen:
                 self.current_screen = next_screen
 

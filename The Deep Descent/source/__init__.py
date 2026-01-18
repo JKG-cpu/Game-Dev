@@ -3,4 +3,4 @@ from .map import *
 from .player import *
 from .rng import *
 from .settings import *
-from .screens import MainMenu
+from .screens import *

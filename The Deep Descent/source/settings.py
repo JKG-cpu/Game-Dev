@@ -21,7 +21,8 @@ COLORS = {
 }
 FONTS = {
     "Small": pygame.font.Font(join(FONT_PATH, "ithaca.ttf")),
-    "Medium": pygame.font.Font(join(FONT_PATH, "ithaca.ttf"), 30)
+    "Medium": pygame.font.Font(join(FONT_PATH, "ithaca.ttf"), 30),
+    "Large": pygame.font.Font(join(FONT_PATH, "ithaca.ttf"), 45)
 }
 
 AMOUNT_WEIGHTS = [0.4, 0.4, 0.3, 0.2, 0.1]

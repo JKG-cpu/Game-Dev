@@ -7,6 +7,7 @@
             {
                 "Name": "Wood",
                 "Desc": "A starting point for any handle.",
+                "Dis-Color": "#6e4127",
                 "Rarity": "Common",
                 "Chance": 0.5,
                 "Amount": 0
@@ -14,6 +15,7 @@
             {
                 "Name": "Silent Wood",
                 "Desc": "Watches you battle in silence.",
+                "Dis-Color": "#3b1c66",
                 "Rarity": "Uncommon",
                 "Chance": 0.3,
                 "Amount": 0
@@ -21,6 +23,7 @@
             {
                 "Name": "Keen Wood",
                 "Desc": "A rare wood, sought after by many. This watches and analyzes your oponent in battle.",
+                "Dis-Color": "#d1d1d1",
                 "Rarity": "Rare",
                 "Chance": 0.1,
                 "Amount": 0

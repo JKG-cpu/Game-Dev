@@ -9,12 +9,11 @@
 # Clone this repo
 git clone https://github.com/JKG-cpu/Game-Dev.git
 
-# Make sure you're in the RNG Game Sub Folder
-# If not run this
-cd "The Deep Descent"
-
 # Activate the Venv
 .\Venv\Scripts\activate
+
+# Open Folder
+cd "The Deep Descent"
 
 # Run Entry Point (MUST HAVE PYTHON ON PATH)
 python main.py

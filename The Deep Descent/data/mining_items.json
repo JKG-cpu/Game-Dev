@@ -7,30 +7,38 @@
             {
                 "Name": "Stone",
                 "Desc": "The basics of all!",
+                "Dis-Color": "#595957",
                 "Rarity": "Common",
                 "Chance": 0.5,
                 "Amount": 0,
-                "Purity": [{"100": 1}]
+                "Purity": {"100": 1}
             },
             {
                 "Name": "Copper",
                 "Desc": "A shiny, somewhat expensive ore. Not great for forging.",
+                "Dis-Color": "#bf7000",
                 "Rarity": "Uncommon",
                 "Chance": 0.3,
                 "Amount": 0,
-                "Purity": [
-                    {"100": 0.6, "70": 0.4, "50": 0.2}
-                ]
+                "Purity": {
+                    "100": 0.6,
+                    "70": 0.4,
+                    "50": 0.2
+                }
             },
             {
                 "Name": "Iron",
                 "Desc": "A shiny, strong ore. Great for making any item.",
+                "Dis-Color": "#b8b6b4",
                 "Rarity": "Rare",
                 "Chance": 0.1,
                 "Amount": 0,
-                "Purity": [
-                    {"100": 0.3, "70": 0.4, "50": 0.5, "35": 0.6}
-                ]
+                "Purity": {
+                    "100": 0.3,
+                    "70": 0.4,
+                    "50": 0.5,
+                    "35": 0.6
+                }
             }
         ]
     },
@@ -44,26 +52,40 @@
             {
                 "Name": "Iron",
                 "Desc": "A shiny, strong ore. Great for making any item.",
+                "Dis-Color": "#b8b6b4",
                 "Rarity": "Rare",
                 "Chance": 0.5,
                 "Amount": 0,
-                "Purity": [{"100": 0.5, "75": 0.3}]
+                "Purity": {
+                    "100": 0.5,
+                    "75": 0.3
+                }
             },
             {
                 "Name": "Magmite",
                 "Desc": "A really hot ore. Make sure to wear gloves!",
+                "Dis-Color": "#ff0000",
                 "Rarity": "Epic",
                 "Chance": 0.3,
                 "Amount": 0,
-                "Purity": [{"100": 0.3}, {"75": 0.5}, {"50": 0.7}]
+                "Purity": {
+                    "100": 0.3,
+                    "75": 0.5,
+                    "50": 0.7
+                }
             },
             {
                 "Name": "Netherite",
                 "Desc": "One of the strongest there is! Or so I was told...",
+                "Dis-Color": "#5c3f2e",
                 "Rarity": "Legendary",
                 "Chance": 0.1,
                 "Amount": 0,
-                "Purity": [{"100": 0.1}, {"75": 0.3}, {"50": 0.5}]
+                "Purity": {
+                    "100": 0.1,
+                    "75": 0.3,
+                    "50": 0.5
+                }
             }
         ]
     }
